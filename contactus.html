@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>query</title>
+<head>
+  <center>
+    <img src="logo.png" height="210px" width="210px">
+  </center>
+  <link rel="stylesheet" href="contact.css">
+  <div class="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="aboutus.html">About us</a>
+    <a href="explore.html">Explore</a>
+    <a href="contactus.html">Contact us</a>
+  </div>
+  <h3>Cook!! eat!! repeat!!</h3>
+</head>
+
+<body>
+  <div class="regform">
+    <h1>Information Form</h1>
+  </div>
+
+  <!-- Main form -->
+  <div class="main">
+    <form id="testForm">
+      <!-- input elements of the form -->
+      <div id="name">
+        <h2 class="name">Name</h2>
+        <input id="firstname" type="text" required name="first_name"><br>
+        <label id="firstlabel"> first name</label>
+        <input id="lastname" type="text" required name="last_name"><br>
+        <label id="lastlabel"> last name</label>
+      </div>
+
+      <h2 class="name">Question</h2>
+      <input id="profession" type="text" name="profession" placeholder="Type you query">
+
+      <h2 class="name">Email</h2>
+      <input id="email" type="text" required name="email">
+      <h2 class="name">Date Of Birth</h2>
+      <input id="dateofbirth" type="date" required name="dateofbirth">
+
+      <h2 class="name">Mobile Number</h2>
+      <input id="mobile" type="text" name="mobile" required pattern="[789][0-9]{9}">
+
+      <h2 class="name"> State</h2>
+      <input id="state" type="text" name="profession" placeholder="You live at...">
+
+
+      <h2 class="travel"> Do you like our videos?</h2>
+      <div id="travel">
+        <input type="radio" name="option" value="Yes"> Yes
+        <input type="radio" name="option" value="No" checked="checked"> No
+      </div>
+
+      <h2 id="symptoms">Feedback?</h2>
+      <div class="arrange">
+        <input type="checkbox" name="symptoms" value="Excellent" id="cb1">
+        <label for="cb1">Excellent</label><br>
+        <input type="checkbox" name="symptoms" value="Good" id="cb2">
+        <label for="cb2">Good</label><br>
+        <input type="checkbox" name="symptoms" value="Fine" id="cb3">
+        <label for="cb3">Fine</label><br>
+        <input type="checkbox" name="symptoms" value=" Not that good" id="cb4">
+        <label for="cb3">Not that good</label><br>
+        <input type="checkbox" name="symptoms" value=" Poor" id="cb5">
+        <label for="cb3">Poor</label><br>
+      </div>
+      <center>
+        <input id="submit" type="submit">
+      </center>
+
+    </form>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore.js"></script>
+  <script src="ab.js"></script>
+</body>
+
+</html>

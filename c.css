@@ -1,0 +1,93 @@
+.navbar {
+  background-color: #20c4ff85;
+  overflow: hidden;
+  text-align:center;
+ height:25px;
+ padding-top:9px;
+ padding-bottom:10px;
+ font-size:20px;
+ 
+}
+.navbar a {
+  float: center;
+  color: #f2f2f2;
+  text-shadow: black 2px 3px 5px;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 2
+    7px;
+}
+
+.navbar a:hover {
+  background-color: #008cff7e;
+  color:whitesmoke;
+}
+h3{
+  text-align:center;
+   font-family:lucida handwriting;
+   background-color:rgb(0, 140, 187);
+   color: whitesmoke;
+   text-shadow: black 2px 3px 5px;
+   margin-top:0px;
+   height:25px;
+   padding-top:9px;
+   padding-bottom:10px;
+   font-size:20px;
+ }
+   h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: oblique;
+     font-weight: bold;
+    color:black;
+    text-shadow: chartreuse 3px 4px 5px;
+   }
+body{
+    background-image: url("ic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-weight: bold;
+   text-shadow: darkcyan 2px 3px 5px;
+}
+
+  .yt{
+    margin-top: 30px;
+  }
+  .ing{
+    text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-weight: bold;
+   text-shadow: darkcyan 2px 3px 5px;
+    border: 2px solid red;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-left:black;
+    border-right:black;
+    box-shadow: salmon 2px 5px 8px;
+    border-radius: 10px;
+  }
+  body{
+    background: radial-gradient(pink,lightblue);
+  }
+  .rcp{
+    border: 20px solid darkgreen;
+    border-radius: 10px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: lime 10px 20px 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .rcphd{
+    font-size: x-large;
+    text-shadow: rgba(250, 0, 0, 0.589) 2px 2px;
+  }
